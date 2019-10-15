@@ -40,20 +40,20 @@
   @media (min-width: 992px) and (max-width: 1200px) {
     .footer {
      position: relative;
-     bottom: -190px;
+     bottom: -295px;
     }
   }
 
   @media (min-width: 720px) and (max-width: 992px) {
     .footer {
      position: relative;
-     top: 190px;
+     top: 295px;
     }
   }
 
   @media (min-width: 0px) and (max-width: 720px) {
     .footer {
      position: relative;
-     top: 190px;
+     top: 295px;
     }
   }
