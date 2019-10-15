@@ -24,3 +24,10 @@
   p {
       font-family: 'PT-Serif', serif;
   }
+
+  .carousel-inner{
+      background-color: grey;
+    box-shadow: 10px 10px 5px grey;
+    width: 100%;
+    height: 100%;
+}
