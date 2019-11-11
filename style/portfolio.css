@@ -15,8 +15,13 @@
     
   }
 
+  .btn-link {
+    color: white;
+    font-size: 20px;
+  }
+
   body {
-      background-image: url(../images/pattern.png);
+      background-image: url(../images/email-pattern.png);
   }
 
   section {
@@ -25,6 +30,11 @@
 
   p {
       font-family: 'Lato', sans-serif;
+  }
+
+  .carousel {
+    box-shadow: 4px 4px 4px grey;
+    border: 5px solid black;
   }
 
 
