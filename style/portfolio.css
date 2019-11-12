@@ -42,6 +42,10 @@
     border: 5px solid black;
   }
 
+  .container {
+    background-color: white;
+  }
+
 
   
   @media (min-width: 992px) and (max-width: 1200px) {
