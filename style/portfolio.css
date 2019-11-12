@@ -15,6 +15,11 @@
     
   }
 
+  .github {
+    height: 50%;
+    width: 50%;
+  }
+
   .btn-link {
     color: white;
     font-size: 20px;

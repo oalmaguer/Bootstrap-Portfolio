@@ -16,6 +16,26 @@
     
   }
 
+  .imgGithub {
+      float: left;
+      margin-left: 0px;
+  }
+
+  .imgLinkedIn {
+      float: left;
+      margin-left: 10px;
+  }
+
+  .imgFacebook {
+      margin-top: 3px;
+      margin-left: 10px;
+  }
+
+  .github {
+      height: 5%;
+      widows: 5%;
+  }
+
   body {
       background-image: url(../images/email-pattern.png);
   }
