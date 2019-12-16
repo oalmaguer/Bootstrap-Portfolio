@@ -1,81 +1,74 @@
-
 .yo {
-    border: 3px solid grey;
+  border: 3px solid grey;
 }
 
 .footer {
-    position: sticky;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    overflow: none;
-    /* Set the fixed height of the footer here */
-    height: 60px;
-    line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
-    
-  }
-
-  .imgGithub {
-      float: left;
-      margin-left: 0px;
-  }
-
-  .imgLinkedIn {
-      float: left;
-      margin-left: 10px;
-  }
-
-  .imgFacebook {
-      margin-top: 3px;
-      margin-left: 10px;
-  }
-
-  .github {
-      height: 5%;
-      widows: 5%;
-  }
-
-  body {
-      background-image: url(../images/email-pattern.png);
-  }
-
-  section {
-      box-shadow: 4px 4px 5px grey;
-    
-  }
-
-
-  p {
-      font-family: 'Lato', sans-serif;
-  }
-
-  .carousel-inner{
-      background-color: grey;
-    box-shadow: 10px 10px 5px grey;
-    width: 100%;
-    height: 100%;
+  position: sticky;
+  position: absolute;
+  bottom: -200px;
+  width: 100%;
+  overflow: none;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
 }
 
+.imgGithub {
+  float: left;
+  margin-left: 0px;
+}
+
+.imgLinkedIn {
+  float: left;
+  margin-left: 10px;
+}
+
+.imgFacebook {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.github {
+  height: 5%;
+  widows: 5%;
+}
+
+body {
+  background-image: url(../images/email-pattern.png);
+}
+
+section {
+  box-shadow: 4px 4px 5px grey;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+}
+
+.carousel-inner {
+  background-color: grey;
+  box-shadow: 10px 10px 5px grey;
+  width: 100%;
+  height: 100%;
+}
 
 @media only screen and (max-width: 1201px) {
-    .footer {
-     position: relative;
-     bottom: -70px;
-    }
+  .footer {
+    position: relative;
+    bottom: -70px;
   }
-  
+}
+
 @media only screen and (max-width: 576px) {
-    .yo {
-     margin-right: 20px;
-    }
+  .yo {
+    margin-right: 20px;
   }
+}
 
-  @media only screen and (max-width: 376px) {
-    .yo {
-        
-        position: relative;
-        right: 40px;
-
-    }
+@media only screen and (max-width: 376px) {
+  .yo {
+    position: relative;
+    right: 40px;
   }
+}
